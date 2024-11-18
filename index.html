@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sachin Chouhan - Full Stack Developer</title>
     <style>
+        :root {
+            --theme-color: #4c8baf; 
+        }
+
         body {
             font-family: Arial, sans-serif;
             margin: 0;
@@ -13,10 +17,21 @@
             color: #333;
         }
         header {
-            background-color: #4CAF50;
+            background-color: var(--theme-color);
             color: #fff;
             padding: 10px 0;
             text-align: center;
+        }
+        h1 {
+            color: #fff;
+        }
+        h2 {
+            color: var(--theme-color);
+        }
+        h3 {
+            margin-bottom: 3px;
+            border-top: 2px solid #8080803b;
+            padding-top: 18px;
         }
         .container {
             width: 80%;
@@ -25,9 +40,6 @@
             background-color: #fff;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             margin-top: 20px;
-        }
-        h1, h2 {
-            color: #4CAF50;
         }
         ul {
             list-style-type: none;
@@ -42,7 +54,7 @@
         footer {
             text-align: center;
             padding: 10px 0;
-            background-color: #4CAF50;
+            background-color: var(--theme-color);
             color: #fff;
             position: fixed;
             width: 100%;
